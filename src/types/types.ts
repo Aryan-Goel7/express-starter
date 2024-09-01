@@ -23,3 +23,8 @@ export type THttpError = {
   trace?: object | null;
 };
 
+export type TUser = {
+  name: string;
+  _id: string;
+};
+
